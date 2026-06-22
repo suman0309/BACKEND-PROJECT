@@ -4,7 +4,7 @@
   "description": "a backend from chai and code",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "type": "module",
   "repository": {
@@ -14,6 +14,7 @@
   "author": "Suman Mondal",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.4"
   }
 }
