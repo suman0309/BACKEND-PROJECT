@@ -1,0 +1,15 @@
+{
+  "name": "backeng-prop",
+  "version": "1.0.0",
+  "description": "a backend from chai and code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "javascript,backend,chai"
+  },
+  "author": "Suman Mondal",
+  "license": "ISC"
+}
