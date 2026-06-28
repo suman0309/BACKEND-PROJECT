@@ -6,13 +6,13 @@ dotenv.config({
 
 import connectDB from "./db/index.js"
 import express from "express"
+import { app } from "./app.js"
 
-
-const app = express()
+// const app = express()
 const PORT = process.env.PORT || 8000
 
 // Middleware
-app.use(express.json())
+// app.use(express.json())
 
 // Routes (add later)
 

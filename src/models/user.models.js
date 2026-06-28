@@ -58,6 +58,7 @@ const userSchema=new Schema({
 )
 
 userSchema.pre("save",async function(next){
+    //if password is not changed then no need to rehash
     if(!this.isModified("password")){
         return next()
     }
